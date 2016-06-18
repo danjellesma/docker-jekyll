@@ -1,4 +1,4 @@
-# Docker-Jekyll
+# Simple, Lightweight Docker-Jekyll Image
 This is the source for a lightweight Docker image for the Jekyll blog system.
 
 It was inspired by [grahamc's image](https://github.com/grahamc/docker-jekyll) which can be found here.
@@ -11,7 +11,7 @@ Image        | Base image      | Size
 `grahamc/jekyll`      | Ubuntu        | `807 MB`
 `danjellz/jekyll`    | Alpine      |    `354 MB`
 
-That is a difference `454 MB` -- 56% smaller!
+That is a difference of `454 MB` -- 56% smaller!
 
 ## Functionality
 
