@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/image/danjellz/docker-jekyll.svg)](http://microbadger.com/#/images/danjellz/docker-jekyll "Get your own image badge on microbadger.com") [![GitHub issues](https://img.shields.io/github/issues/danjellesma/docker-jekyll.svg)](https://github.com/danjellesma/docker-jekyll/issues) [![GitHub stars](https://img.shields.io/github/stars/danjellesma/docker-jekyll.svg)](https://github.com/danjellesma/docker-jekyll/stargazers) [![GitHub forks](https://img.shields.io/github/forks/danjellesma/docker-jekyll.svg)](https://github.com/danjellesma/docker-jekyll/network) [![CircleCI](https://circleci.com/gh/danjellesma/docker-jekyll/tree/master.svg?style=svg)](https://circleci.com/gh/danjellesma/docker-jekyll/tree/master) [![](https://images.microbadger.com/badges/version/danjellz/docker-jekyll.svg)](http://microbadger.com/#/images/danjellz/docker-jekyll "Get your own version badge on microbadger.com")
+
 # Simple, Lightweight Docker-Jekyll Image
 This is the source for a lightweight Docker image for the Jekyll blog system.
 
