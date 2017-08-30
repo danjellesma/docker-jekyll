@@ -11,7 +11,7 @@ The differentiator between the two images is the base image they are built from.
 Image        | Base image      | Size
 ------------- |:-------------: |:-------------:      
 `grahamc/jekyll`      | Ubuntu        | `807 MB`
-`danjellz/jekyll`    | Alpine      |    `354 MB`
+`danjellz/docker-jekyll`    | Alpine      |    `354 MB`
 
 That is a difference of `454 MB` -- 56% smaller!
 
@@ -22,7 +22,7 @@ If you were using Grahamc's image you should be able to use this as a drop in re
 Use example:
 
 ```
-sudo docker run --rm -v "$PWD:/src" danjellz/jekyll build
+sudo docker run --rm -v "$PWD:/src" danjellz/docker-jekyll build
 ```
 
 or for repeated calls:
@@ -35,7 +35,7 @@ jekyll serve -H 0.0.0.0
 
 run as a background daemon:
 ```
-sudo docker run -d -v "$PWD:/src" -p 4000:4000 danjellz/jekyll serve -H 0.0.0.0
+sudo docker run -d -v "$PWD:/src" -p 4000:4000 danjellz/docker-jekyll serve -H 0.0.0.0
 ```
 
 ## Goodies
